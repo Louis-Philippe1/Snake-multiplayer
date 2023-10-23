@@ -1,0 +1,4 @@
+enum GameStatus {
+    MENU, PAUSED, NOT_STARTED, MULTI_PLAYER, SINGLE_PLAYER, GAME_OVER;
+    
+}
