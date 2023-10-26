@@ -1,6 +1,4 @@
-
 import java.awt.CardLayout;
-import java.awt.*;
 import javax.swing.*;
 
 class Main {
@@ -25,6 +23,7 @@ class Main {
         frame.add(panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        frame.setResizable(false);
         frame.setSize(600, 600);
         p2.goTo();
 
